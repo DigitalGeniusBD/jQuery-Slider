@@ -1,0 +1,295 @@
+body {
+	margin: 0;
+	font-family: tahoma;
+}
+
+
+h3 {
+	font-size: 50px;
+	color: #e74c3c;
+	letter-spacing: 15px;
+	text-align: center;
+	padding-top: 5%;
+	
+}
+
+
+
+/* ======================
+        Header- Area
+	=====================*/
+
+	/* ====MENU==== */
+
+	
+.main-menu .bars {
+	background: #f1c40f;
+	display: none;
+}
+
+.main-menu .bars i {
+	float: right;
+	
+}
+	
+.main-menu .bars a {
+	text-decoration: none;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	display: block;
+	transition: 1s;
+	border-radius: 5px;
+	
+}
+	
+	
+	
+	
+	
+	
+	
+.main-menu {
+	background: #2ecc71;
+	padding: 1px 0;
+	padding-bottom: 10px;
+	
+}
+
+.main-menu:after {
+	content: '';
+	display: block;
+	clear: both;
+	
+}
+.main-menu ul {
+	list-style: none;
+	
+	
+}
+.main-menu ul li {
+	float: left;
+	position: relative;
+	
+}
+.main-menu ul li a {
+	text-decoration: none;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	display: block;
+	margin: 1px;
+	transition: 1s;
+	border-radius: 5px;
+	
+}
+.main-menu .current a {
+	background: #395168;
+}
+
+.main-menu ul li:hover a {
+	background: #395168;
+}
+
+/* =========== Sub menu ============*/
+	
+.main-menu ul ul {
+	padding: 0;
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: #2ecc71;
+	z-index: 9999;
+}
+.main-menu ul ul li {
+	float: none;
+	padding: 0;
+	min-width: 250px;
+}
+.main-menu ul ul li:hover a {
+	background: #2ecc71;
+}	
+	
+	
+	
+	
+	
+.header-area {
+	overflow: hidden;
+	
+}	
+	
+.slide-img img {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.title {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+	color: #FFFFFF;
+	top: 30%;
+}
+
+.slide {
+	position: relative;
+}
+
+.title h2 {
+	font-size: 75px;
+	text-transform: uppercase;
+	line-height: 0;
+	letter-spacing: 10px;
+	color: #2ecc71;
+	transition: 1s;
+    text-shadow: 3px 2px #2c3e50;
+	
+}
+
+
+.title h4 {
+	font-size: 40px;
+	color: #f1c40f;
+	letter-spacing: 5px;
+	transition: 1s;
+    text-shadow: 2px 2px #2c3e50;
+	
+}
+
+.title h2:hover,
+.title h4:hover {
+	color: #FFFFFF;
+	cursor: progress;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    width: 15px;
+    height: 15px;
+    margin: 5px 7px;
+    border-radius: 0;
+    background: none repeat scroll 0% 0% #2ecc71;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+    margin: 10px;
+    padding: 5px 20px;
+    font-size: 14px;
+    border-radius: 25px;
+    background: none repeat scroll 1% 1% #2ecc71;
+	text-transform: capitalize;
+}
+
+.owl-theme .owl-controls {
+	position: absolute;
+	left: 34%;
+	bottom: 20px;
+	display: block;
+	text-align: center;
+	
+	
+}
+
+
+
+/* ======================
+        Main-Area
+	=====================*/
+
+.main-area {
+	min-height: 800px;
+	background: #bdc3c7;
+	overflow: hidden;
+}
+
+.main-area img {
+	width: 200px;
+	height: 180px;
+	display: inline-block;
+	margin: 1% 4%;
+	
+	
+}
+
+
+
+/* ======================
+        Footer-Area
+	=====================*/
+
+
+.footer-area {
+	min-height: 400px;
+	background: #34495e;
+	overflow: hidden;
+}
+
+.footer-area img {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 812px) {
+	
+	
+	
+	
+	.title h2 {
+		letter-spacing: 0;
+		font-size: 40px;
+	}
+	.title h4 {
+		letter-spacing: 0;
+		font-size: 20px;
+	}
+	
+	.owl-theme .owl-controls {
+		left: 25%;
+	}
+	
+	
+	.main-area img {
+		width: 150px;
+		height: 100px;
+		display: inline-block;
+		margin: 1% 0;
+		margin-left: 18%;
+		
+		
+	}
+
+
+	
+	
+	
+	
+}
+
+
+
+
+
